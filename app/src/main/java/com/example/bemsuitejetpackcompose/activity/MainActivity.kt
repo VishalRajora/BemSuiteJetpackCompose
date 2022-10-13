@@ -107,7 +107,7 @@ fun LoadingBar() {
         )
     }
 }
-
+//for preview
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
