@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/compose-model-1664884313098.xml" value="0.3129222972972973" />
+        <entry key="../../../../layout/compose-model-1664887224774.xml" value="1.0" />
+        <entry key="../../../../layout/compose-model-1664887246203.xml" value="0.1" />
+        <entry key="../../../../layout/compose-model-1664887265178.xml" value="0.25" />
+        <entry key="../../../../layout/compose-model-1664887656597.xml" value="1.0" />
+        <entry key="../../../../layout/compose-model-1665071256261.xml" value="0.25" />
+        <entry key="../../../../layout/compose-model-1665071653625.xml" value="0.25" />
+        <entry key="../../../../layout/compose-model-1665697402728.xml" value="0.3129222972972973" />
+        <entry key="../../Library/Android/sdk/platforms/android-32/data/res/drawable/ic_baseline_remove_red_eye_24.xml" value="0.1755" />
+        <entry key="app/src/main/res/drawable/ic_baseline_remove_red_eye_24.xml" value="0.1755" />
+        <entry key="app/src/main/res/drawable/ic_devicevalidate.xml" value="0.1325" />
+        <entry key="app/src/main/res/drawable/ic_ironbolt_logo.xml" value="0.1325" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
