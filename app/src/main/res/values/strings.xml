@@ -1,3 +1,247 @@
 <resources>
     <string name="app_name">BemSuiteJetpackCompose</string>
+
+    <string name="validating">Validating..</string>
+    <string name="ironbolt">Ironbolt</string>
+    <string name="beamsuite">beamsuite</string>
+
+
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="settings">settings</string>
+    <string name="print_rfid">print rfid</string>
+    <string name="home">Home</string>
+    <string name="logout">Logout</string>
+    <string name="last_sync">Last Sync :</string>
+    <string name="location">Location :</string>
+    <string name="organisation">Organisation :</string>
+    <string name="stocktake">stocktake</string>
+    <string name="reconcile">reconcile</string>
+
+    <string name="tag_check">tag check</string>
+    <string name="scan_and_tag">scan &amp; tag</string>
+    <string name="classic">barcode</string>
+    <string name="beam">rfid</string>
+    <string name="bay">Scan Bay #</string>
+    <string name="bay_hint">Bay #</string>
+    <string name="bay_selected">Bay # : %s</string>
+    <string name="scan_barcode">Scan Barcode</string>
+
+
+    <string name="quantity">Quantity</string>
+
+
+    <string name="error_title">Error Occurred</string>
+    <string name="failed_identify_device">Failed to identify device.</string>
+
+    <string name="generic_error">Bad response, please retry. contact admin if problem persists.</string>
+    <string name="error_empty_username">Please enter username before trying to login.</string>
+    <string name="error_empty_password">Please enter password before trying to login.</string>
+
+    <string name="error_no_error_provided">Something went wrong. No additional information is provided by the server.</string>
+    <string name="error_no_barcode_list">No barcode is associated with this product.</string>
+    <string name="error_no_response_server">No data received from server, retry later. If problem persists contact admin.</string>
+    <string name="login_progress">LoggingIn..</string>
+    <string name="sql_constraints_error">Data constraints failed, please recheck the data.</string>
+    <string name="resume_btn">Resume</string>
+    <string name="pause_btn">Pause</string>
+    <string name="selected_event">Event : %s</string>
+    <string name="event">Event :</string>
+    <string name="easyas_create_loading_message">Creating Event..</string>
+    <string name="easyas_confirm_loading_message">Starting Event..</string>
+    <string name="updating_app">Updating App</string>
+    <string name="install_update">Install Update</string>
+    <string name="downloading_update">Downloading Update..</string>
+    <string name="update_ready">Update ready for installation.</string>
+    <string name="change">Change</string>
+    <string name="untag">UnTag</string>
+    <string name="select_event">Select Event</string>
+    <string name="select_stocktake_event">Select Stocktake Event</string>
+    <string name="select_reconcile_event">Select Reconcile Event</string>
+    <string name="select_zone">Select Zone</string>
+    <string name="comments">Comments</string>
+    <string name="commited_changes">Changes Saved.</string>
+    <string name="changes_discard">Changes Discarded.</string>
+    <string name="delete_success">Deleted Successfully.</string>
+    <string name="commited_changes_failed">Failed to Save Changes.</string>
+    <string name="discard_changes_failed">Failed to Discarded Changes.</string>
+    <string name="select_event_to_continue">Please select an event to continue.</string>
+    <string name="clear">Clear</string>
+    <string name="back">Back</string>
+    <string name="done">Done</string>
+    <string name="save">Save</string>
+    <string name="saving_details">Saving Data..</string>
+    <string name="invalid_bay">Invalid Bay Number</string>
+    <string name="improper_rfid">Please Rescan RFID.</string>
+    <string name="invalid_sku">BARCODE NOT REGISTERED</string>
+    <string name="rfid_already_scanned">RFID Tag already associated with this barcode.</string>
+    <string name="rfid_validate_api_error">Failed to validate RFID. Please try again.</string>
+
+    <string name="no_reason_error">Error : No reason from server.</string>
+    <string name="invalid_quantity">Invalid Quantity. Should be in between 0 and 9999</string>
+    <string name="invalid_quantity_99_max">Invalid Quantity. Should be in between 1 and 99</string>
+    <string name="invalid_recount">Recount should be in between 0 and 9999 range.</string>
+    <string name="no_data_received">No Data received from scan.</string>
+
+
+    <string name="datawedge_intent_key_source">com.symbol.datawedge.source</string>
+    <string name="datawedge_intent_key_label_type">com.symbol.datawedge.label_type</string>
+    <string name="datawedge_intent_key_data">com.symbol.datawedge.data_string</string>
+
+    <string name="delete_record_title">Delete Record</string>
+    <string name="delete_record_message">Are you sure to delete this record?</string>
+
+    <string name="export_scan_title">Unsaved changes</string>
+    <string name="export_scan_message">Save changes and exit?</string>
+
+    <string name="quit_title">Logout</string>
+    <string name="quit_message">Are you sure to logout?</string>
+
+
+    <string name="btn_confirm">Confirm</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="delete_close">Discard &amp; Exit</string>
+
+    <string name="started">Started</string>
+    <string name="stopped">Stopped</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_continue">Continue</string>
+
+    <string name="note">Note</string>
+    <string name="setting_restart">You will need to restart the app for the change to take effect.</string>
+
+    <string name="min_datawedge">This app requires Datawedge Version 8.0 or above to continue.</string>
+    <string name="min_datawedge_check_fail">Unable to verify Datawedge version. Please make sure Datawedge is available on your device.</string>
+    <string name="btn_retry">Close</string>
+    <string name="uom">UOM: </string>
+    <string name="sku_code">SKU : </string>
+    <string name="list">List</string>
+    <string name="list_with_count">List(%d)</string>
+    <string name="recent_scans">Recent Scans</string>
+    <string name="saved">Saved</string>
+
+    <string name="sync_progress">%d Syncing..</string>
+    <string name="wait_for_network">Waiting for Network..</string>
+    <string name="select_location">Select Location</string>
+    <string name="selected_location">Location : %s</string>
+    <string name="disabled_due_to_pending">There are pending uploads some functions may be disabled.</string>
+    <string name="confirm_exit_insync_title">Sure to exit?</string>
+    <string name="confirm_exit_insync">Syncing is currently in progress exiting might reset the data.</string>
+    <string name="force_resync">Force Sync</string>
+    <string name="force_resync_desc">Force sync product data from server.</string>
+    <string name="send_logs">Send Logs</string>
+    <string name="default_stocktake_rfid">Stocktake RFID Power</string>
+    <string name="default_stocktake_rfid_desc">Default RFID Antenna Power Level for stocktake RFID.</string>
+
+    <string name="send_logs_desc">Send anonymous app logs to server.</string>
+    <string name="send_logs_fail_folder_empty">No Logs available to upload.</string>
+    <string name="send_logs_fail_invalid_dir">Expected a Log Directory, Found File.</string>
+    <string name="sync">Sync</string>
+    <string name="send">Send</string>
+    <string name="sending">Sending..</string>
+    <string name="barcode">Barcode</string>
+    <string name="barcode_field">Barcode :</string>
+    <string name="item_view">Item View</string>
+    <string name="list_view">List View</string>
+    <string name="model">Model : </string>
+    <string name="description">Desc :</string>
+    <string name="plus">Plus</string>
+    <string name="expected_quantity">Expected Quantity: </string>
+    <string name="actual_quantity">Stocktake Quantity: </string>
+    <string name="expected_quantity_short">Exp</string>
+    <string name="actual_quantity_short">Stk</string>
+    <string name="next">Next</string>
+    <string name="recount">Recount</string>
+    <string name="recount_short">Rec</string>
+    <string name="display_index">%d of %d</string>
+    <string name="unique_reads">Unique Reads</string>
+    <string name="new_tags">New Tags</string>
+    <string name="total_tags">Total Tags</string>
+    <string name="pending_tags">Pending Upload</string>
+    <string name="pending_tags_side_header">Pending Upload:</string>
+    <string name="scan_reads">Reads</string>
+    <string name="rfid">RFID:</string>
+    <string name="rfid_easyAs">rfid (EasyAs)</string>
+
+    <string name="tag_check_prompt_rfid">Please Scan a RFID Tag.</string>
+
+    <string name="tag_check_prompt_barcode">Please Scan a Barcode.</string>
+
+    <string name="waiting_for_rfid_scan">Waiting for RFID Scan..</string>
+    <string name="waiting_for_product_details">Fetching Product..</string>
+    <string name="reset">Reset</string>
+    <string name="antenna_power">Antenna Power</string>
+    <string name="total_tag_count">Total Tag Count</string>
+    <string name="saved_scans">Saved Scans</string>
+    <string name="new_update_version">New Version</string>
+    <string name="current_version">Current Version: %s</string>
+    <string name="new_update_title">Update Available.</string>
+    <string name="new_update_message">New version of the app is available with improvements.</string>
+    <string name="device_id_placeholder">ID: %s</string>
+    <string name="scans">Scans</string>
+    <string name="minus">Minus</string>
+
+    <string name="write">Write</string>
+    <string name="encoder">encoder</string>
+    <string name="find_rfid">find rfid</string>
+    <string name="start">Start</string>
+    <string name="not_found">Not Found</string>
+    <string name="found">Found</string>
+    <string name="signal_strength">Signal Strength</string>
+    <string name="barcode_key">Barcode:</string>
+    <string name="matched">Matched</string>
+    <string name="mismatch">Mismatch</string>
+    <string name="requesting_untag">Requesting UnTag..</string>
+    <string name="sku_header">SKU</string>
+    <string name="about">About</string>
+    <string name="device_id">Device ID: </string>
+    <string name="version">Version: </string>
+    <string name="build_tag">Build Tag: </string>
+    <string name="driver">Driver: </string>
+    <string name="refresh_device_scanner_services">Refresh device scanner services.</string>
+    <string name="restart_scan_services">Restart Scan Services</string>
+    <string name="refresh">Refresh</string>
+    <string name="restarting">Restarting</string>
+    <string name="restart">Restart</string>
+    <string name="services_restarted">Services Restarted.</string>
+    <string name="refresh_device">Just a sec, Scan services are being refreshed.</string>
+    <string name="service_refresh_back_press">Please Wait, Scanner services are being refreshed..</string>
+    <string name="confirm_untag">Confirm untag!</string>
+    <string name="confirm_untag_desc">This will delete all the tag history.</string>
+    <string name="product">Product</string>
+    <string name="uploading_to_printer">Uploading to Printer..</string>
+    <string name="easy_as">EasyAs</string>
+
+    <string name="easy_as_export_confirm_title">Confirm Export?</string>
+    <string name="easy_as_export_confirm_description">%1$d read(s) will be exported and this event will be closed.</string>
+
+    <string name="easy_as_pause_confirm_title">Pause Event?</string>
+    <string name="easy_as_pause_confirm_description">This action will pause the event and navigate back to home screen.</string>
+    <string name="product_info">Product Information</string>
+    <string name="allow_rfid_duplicates">Allow RFID Duplicates</string>
+    <string name="allow_duplicates_description">Disable unique check on RFID Stocktake.</string>
+    <string name="btn_on">On</string>
+    <string name="btn_off">Off</string>
+    <string name="note_duplicates_are_allowed">Note: Duplicates are allowed.</string>
+    <string name="read_epc_and_tid">Read EPC and TID</string>
+    <string name="read_tid_epc_desc">Enable to read both tid &amp; epc on RFID scan.></string>
+    <string name="q_value_mode">Q Value Mode</string>
+    <string name="q_value_level">Q Level</string>
+    <string name="q_value_level_desc">Set Q Level (0–15)</string>
+    <string name="dynamic">Dynamic</string>
+    <string name="fixed">Fixed</string>
+    <string name="q_value_set_desc">Set Q value mode to Dynamic/Fixed</string>
+    <string name="idle_timeout_logout">Idle Timeout</string>
+    <string name="idle_timeout_desc">Idle timeout value in minutes. User is logged out after the idle timeout.</string>
+    <string name="sync_expiry">Sync Expiry</string>
+    <string name="sync_expiry_desc"><![CDATA[Invalidate & resync product data after expiry hours.]]></string>
+    <string name="mins">Mins</string>
+    <string name="hrs">Hrs</string>
+    <string-array name="antenna_power_values">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+
 </resources>
